@@ -4,37 +4,37 @@ This repository contains solutions to several web scraping challenges using vari
 
 ## Problems Solved
 
-### 1. Number of Books and Average Price in Each Category
+### Q01. Number of Books and Average Price in Each Category
 - **Problem**: For each category on the website, determine the total number of books and calculate the average price of the books listed.
 - **Solution**: Web scraping is used to extract data about books, including their price and category, from the website. The script categorizes the books and calculates the required metrics for each category.
 
-### 2. Log-in-problem
+### Q02. Log-in-problem
 
-### 3. Number of Pages on the Website
+### Q03. Number of Pages on the Website
 - **Problem**: Determine how many pages are available on the website.
 - **Solution**: After logging into the website, the scraper navigates through the pagination structure and counts the total number of pages available.
 
-### 4. Number of Citations on a Specific URL
+### Q04. Number of Citations on a Specific URL
 - **Problem**: Find the total number of citations listed on a given URL.
 - **Solution**: A scraping script is designed to extract all citations from the URL and count how many are available.
 
-### 5. First Citation on a Given URL
+### Q05. First Citation on a Given URL
 - **Problem**: Retrieve the first citation from a specific URL.
 - **Solution**: The script identifies and extracts the first citation from the page and displays it.
 
-### 6. Fifth Citation on a Given URL
+### Q06. Fifth Citation on a Given URL
 - **Problem**: Retrieve the fifth citation from a specific URL.
 - **Solution**: The script extracts the fifth citation and returns it as output.
 
-### 7. Most Repetitive Tag on the Page
+### Q07. Most Repetitive Tag on the Page
 - **Problem**: Identify the most repetitive tag used on the page.
 - **Solution**: The script scrapes the page, counts the occurrences of each tag, and identifies the most frequently used one.
 
-### 8. Unique Albert Einstein Citation on Music
+### Q08. Unique Albert Einstein Citation on Music
 - **Problem**: Find the unique citation from Albert Einstein about music by submitting a search form.
 - **Solution**: The script interacts with a form on the webpage, submits the relevant search query for Albert Einstein quotes about music, and extracts the unique result.
 
-### 9. Estimated Time to Scrape the Entire Website
+### Q09. Estimated Time to Scrape the Entire Website
 - **Problem**: Estimate how long it would take to scrape the entire content of the website.
 - **Solution**: The script measures the time taken to scrape a sample of the content and extrapolates the result to estimate the time required to scrape the entire website.
 
